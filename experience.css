@@ -70,3 +70,60 @@ footer {
     transform: translateY(0);
   }
 }
+.section-box {
+  background-color: #fafafa;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Table headers */
+th {
+  background-color: #34495e;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+/* Table cells */
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+    background-color: #6c068e;
+  }
+
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}

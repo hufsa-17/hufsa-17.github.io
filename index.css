@@ -73,3 +73,12 @@ h1 {
   border-bottom: 4px solid #ddd;
   padding-bottom: 6px;
 }
+.text-box {
+  background-color: #ffffff;
+  border: 2px solid #8a2be2;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 850px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
